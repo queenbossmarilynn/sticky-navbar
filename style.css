@@ -3,7 +3,7 @@ body {
 }
 
 .top-container {
-    background-image: url("./image/backgound\ \(1920x1080px\)\ yellow\ black\ grid.png");
+    background-image: url("./images/backgound\ \(1920x1080px\)\ yellow\ black\ grid.png");
     height: 100vh;
     background-size: cover;
     display: flex;
@@ -32,6 +32,7 @@ body {
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+    transition: background-color .4s;
 }
 
 .navbar img {
